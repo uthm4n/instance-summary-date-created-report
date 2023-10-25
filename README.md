@@ -3,3 +3,5 @@ Instance summary report ordered by date created (descending). This is a very bas
 
 # Build
 ```./gradlew shadowJar```
+
+# Screenshot

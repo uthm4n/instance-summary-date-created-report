@@ -5,3 +5,4 @@ Instance summary report ordered by date created (descending). This is a very bas
 ```./gradlew shadowJar```
 
 # Screenshot
+![](src/assets/images/instance-summary.png?raw=true)

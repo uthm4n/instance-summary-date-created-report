@@ -1,0 +1,28 @@
+<div id="instance-inventory-report">
+   <div class="intro-stats">
+      <h2>Overview</h2>
+      <div class="count-stats">
+         <div class="stats-container">
+            <span class="big-stat">{{ header.0.dataMap.total_items }}</span>
+            <span class="stat-label">Items</span>
+         </div>
+      </div>
+   </div>
+   <h2>Instances</h2>
+   <table>
+      <thead>
+         <th>ID</th>
+         <th>Name</th>
+         <th>Date Created</th>
+      </thead>
+      <tbody>
+         {{#each main}}
+         <tr>
+            <td>{{dataMap.id}}</td>
+            <td>{{dataMap.name}}</td>
+            <td>{{dataMap.date_created}}</td>
+         </tr>
+         {{/each}}
+      </tbody>
+   </table>
+</div>
